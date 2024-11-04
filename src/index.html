@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>Navigation Bar</title>
+    <style>
+        .navbar {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+        }
+
+        .navbar a.active {
+            font-weight: bold;
+            color: blue;
+        }
+
+        .navbar .button {
+            margin-left: auto;
+            padding: 8px 15px;
+            border: 2px solid blue;
+            border-radius: 15px;
+            color: blue;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .navbar .button:hover {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+
+</head>
+<body class="bg-gray-100"> 
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <a href="#remindme">Remind<span style="color:blue;">me</span></a>
+    <a href="#home" class="active">Home</a>
+    <a href="#features">Features</a>
+    <a href="#aboutus">About us</a>
+    <a href="#aboutapp" class="button">About App</a>
+</div>
+
+  <!-- Hero Section -->
+  <section class="container mx-auto my-8 p-4 text-center">
+    <img src="Hero.png" alt="App preview" class="mx-auto mt-6" />
+  </section>
+
+  <!-- Features Section -->
+  <section class="container mx-auto my-8 p-4 text-center">
+    <img src="features.png" alt="Features preview" class="mx-auto mt-6" />
+  </section>
+
+  <!-- App Preview Section -->
+  <section class="container mx-auto my-12 p-4 flex flex-col md:flex-row items-center justify-center">
+    <img src="Advantage.png" alt="Feature preview" class="rounded-lg shadow-md" />
+  </section>
+
+  <!-- Download Section -->
+  <div class="flex justify-center my-8">
+    <img src="Userpaging.png" alt="Feature preview" class="rounded-lg shadow-md" />
+  </div>
+
+  <!-- Testimonials Section -->
+  <section class="container mx-auto my-12 p-4 text-center">
+    <img src="Testimonial.png" alt="Testimonial 1" class="mx-auto" />
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-white text-center py-4 bg-gray-800">
+    <div class="container mx-auto">
+      <img src="Footer.png" alt="Footer image" class="mx-auto">
+      <p class="text-sm mt-4">© 2024.</p>
+    </div>
+  </footer>
+</body>
+</html>
